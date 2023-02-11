@@ -12,7 +12,7 @@ def reg():
         teameits=""
 
         for item in range(team_number):
-            teameits=input("Напишите имя участника ")
+            teameits+=input("Напишите имя участника ")
         return teameits,  team_number
 
 def Log_in(teameits,team_number):
